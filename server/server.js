@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 
 var corsOptions = {
-  origin: ['http://localhost:3000', process.env.DOMAIN],
+  origin: ['https://pinterest-clone-project.herokuapp.com/', process.env.DOMAIN],
   credentials: true
 };
 app.use(cors(corsOptions));
