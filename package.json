@@ -50,10 +50,10 @@
   },
   "proxy": {
     "/auth/*": {
-      "target": "http://localhost:4000"
+      "target": "https://pinterest-clone-project.herokuapp.com"
     },
     "/graphql": {
-      "target": "http://localhost:4000"
+      "target": "https://pinterest-clone-project.herokuapp.com"
     }
   }
 }
